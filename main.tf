@@ -1,6 +1,6 @@
 module "pet" {
   source  = "app.terraform.io/emea-se-playground-2019/pet/random"
-  version = "1.0.0"
+  version = "2.0.0"
 }
 
 module "vpc" {
