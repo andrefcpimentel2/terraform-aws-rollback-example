@@ -5,5 +5,5 @@ output "vpc_id" {
 
 output "pet_name" {
   description = "Result from random name"
-  value       = module.name.pet_name
+  value       = module.names.pet_name
 }
